@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Football World</title>
+    <style>
+      body {
+        background-color: #3D9970; /* Green */
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      h1 {
+        border: 2px solid white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 20px;
+        margin-top: 40px;
+      }
+
+      ul {
+        margin-top: 20px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      li {
+        background-color: #FFF;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 10px;
+        text-align: center;
+        width: 30%;
+      }
+
+      a {
+        color: #3D9970;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        background-color: white;
+        color: #3D9970;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Football World!</h1>
+    <p>Stay up-to-date with the latest news and events in the world of football:</p>
+    <ul>
+      <li><a href="{{ url_for('events') }}">Events</a></li>
+      <li><a href="{{ url_for('ginfs') }}">Ginfs</a></li>
+    </ul>
+
+  </body>
+</html>

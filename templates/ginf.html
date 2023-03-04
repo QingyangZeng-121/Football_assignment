@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Colorful Boxes</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			background-color: #e0e0e0;
+			padding: 10px;
+		}
+
+		.ginfs {
+			background-color: #ffc0cb;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 10px #888888;
+		}
+
+		.ginfs:nth-child(2n) {
+			background-color: #b0e0e6;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- 以下为你提供的代码 -->
+		{% for row in rows %}
+		<div class="ginfs" id="{{ row['id_odsp'] }}">
+			<p>ID: {{ row['id_odsp'] }}</p>
+			<p>Date: {{ row['date'] }}</p>
+			<p>League: {{ row['league'] }}</p>
+			<p>Season: {{ row['season'] }}</p>
+			<p>Country: {{ row['country'] }}</p>
+			<p>Home Team: {{ row['ht'] }}</p>
+			<p>Away Team: {{ row['at'] }}</p>
+			<p>Home Goals: {{ row['fthg'] }}</p>
+			<p>Away Goals: {{ row['ftag'] }}</p>
+			<p>Odd for Home Win: {{ row['odd_h'] }}</p>
+			<p>Odd for Draw: {{ row['odd_d'] }}</p>
+			<p>Odd for Away Win: {{ row['odd_a'] }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</body>
+</html>

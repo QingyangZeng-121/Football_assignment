@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Details</title>
+	<style type="text/css">
+		.container {
+			background-color: #c3e6cb;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 20px;
+			box-shadow: 10px 10px 20px #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Event Details</h1>
+		<p>ID: {{ event['id_event'] }}</p>
+		<p>Sort Order: {{ event['sort_order'] }}</p>
+		<p>Time: {{ event['time'] }}</p>
+		<p>Text: {{ event['text'] }}</p>
+		<p>Event Type: {{ event['event_type'] }}</p>
+		<p>Side: {{ event['side'] }}</p>
+		<p>Event Team: {{ event['event_team'] }}</p>
+		<p>Opponent: {{ event['opponent'] }}</p>
+		<p>Player: {{ event['player'] }}</p>
+		<p>FastBreak: {{ event['fastBreak'] }}</p>
+	</div>
+</body>
+</html>

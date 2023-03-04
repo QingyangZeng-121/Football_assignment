@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+	<style type="text/css">
+		.event {
+			background-color: #f8d7da;
+			padding: 10px;
+			margin: 10px 0;
+			border-radius: 10px;
+			box-shadow: 5px 5px 10px #ccc;
+		}
+		.event:hover {
+			background-color: #f5c6cb;
+		}
+		.container {
+			background-color: #c3e6cb;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 20px;
+			box-shadow: 10px 10px 20px #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Events</h1>
+		{% for row in rows %}
+			<div class="event">
+				<p>ID: <a href="/event_details/{{ row['id_event'] }}">{{ row['id_event'] }}</a></p>
+			</div>
+		{% endfor %}
+	</div>
+</body>
+</html>
