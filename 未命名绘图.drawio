@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T16:32:02.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tB2KD_ov_M3cxxdinN_N" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T16:32:43.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fNHx5uj3xJV4XbOaAYtz" version="22.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="794" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="540" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0zwQHO39c3brcpTiivWF-8" value="FeaturedExhibition&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="150" y="410" width="180" height="80" as="geometry" />
+          <mxGeometry x="110" y="400" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0zwQHO39c3brcpTiivWF-9" value="RegularExhibition" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="400" y="400" width="180" height="80" as="geometry" />
+          <mxGeometry x="460" y="400" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0zwQHO39c3brcpTiivWF-10" value="Curator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="650" y="320" width="120" height="60" as="geometry" />
